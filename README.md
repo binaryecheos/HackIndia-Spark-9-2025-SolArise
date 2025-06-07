@@ -9,6 +9,7 @@ A multilingual legal assistant chatbot built with Flask, Google Gemini AI, and L
 ![Flask](https://img.shields.io/badge/Flask-2.0+-green?style=for-the-badge&logo=flask&logoColor=white)
 ![Gemini AI](https://img.shields.io/badge/Google-Gemini%20AI-orange?style=for-the-badge&logo=google&logoColor=white)
 
+
 ## 🎯 Overview
 
 This legal chatbot provides AI-powered assistance for legal queries, specifically designed to help users understand Indian legal documents and procedures. The system uses vector-based document retrieval to provide contextually relevant answers to legal questions.
