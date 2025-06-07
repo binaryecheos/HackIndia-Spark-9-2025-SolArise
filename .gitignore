@@ -50,3 +50,5 @@ dist/
 build/
 *.egg-info/
 *.dist-info/
+".env" 
+"*.pkl" 
