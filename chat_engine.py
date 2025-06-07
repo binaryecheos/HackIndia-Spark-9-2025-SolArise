@@ -4,7 +4,11 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
 
 # Set your Gemini API key
-os.environ['GOOGLE_API_KEY'] = "AIzaSyAaXcg3VP0iNejtjHmmDIQQeJy3ZYmJtqE"  # Replace with your actual Gemini API key
+api_key = os.getenv('GOOGLE_API_KEY')
+if not api_key:
+    raise ValueError("GOOGLE_API_KEY environment variable is not set")
+
+os.environ['GOOGLE_API_KEY'] = api_key
 
 # Load vectorstore from pkl
 def load_vectorstore(path: str = "vectorstore.pkl"):
