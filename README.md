@@ -99,7 +99,7 @@ def load_vectorstore(path: str = "vectorstore.pkl"):
         return pickle.load(f)
 ```
 
-## 🎮 Usage
+## 🎮 Usage 
 
 ### Running the Application
 ```bash
