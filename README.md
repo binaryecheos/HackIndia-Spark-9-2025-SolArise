@@ -263,4 +263,4 @@ For support, email us at **binaryecheos@gmail.com** or create an issue in the Gi
 
 ---
 
-**Made with ❤️ by Team SolArise for HackIndia Spark 9 - 2025**
+**Made by Team SolArise for HackIndia Spark 9 - 2025**
